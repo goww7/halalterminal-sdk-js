@@ -1,0 +1,51 @@
+{
+  "name": "@halalterminal/sdk",
+  "version": "0.1.1",
+  "description": "Official TypeScript/JavaScript SDK for the Halal Terminal API — Shariah stock screening, market data, zakat & purification calculators.",
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp dist/index.js dist/index.mjs",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "halal",
+    "shariah",
+    "islamic-finance",
+    "stock-screening",
+    "zakat",
+    "purification",
+    "api",
+    "fintech"
+  ],
+  "author": "Yassir <yassir@halalterminal.com>",
+  "license": "MIT",
+  "homepage": "https://halalterminal.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goww7/halalterminal-sdk-js.git"
+  },
+  "bugs": "https://github.com/goww7/halalterminal-sdk-js/issues",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
