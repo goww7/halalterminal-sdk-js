@@ -72,6 +72,17 @@ try {
 
 Every compliance / market-data / zakat / purification response carries a typed `disclaimers: Disclaimer[]`. Each disclaimer is versioned, severity-tagged (`religious` for fatwa caveats, `data` for freshness/sourcing), and deep-links to a specific section on the Halal Terminal legal page. Show them inline — the API ships your compliance copy for you.
 
+## Learn more
+
+- [API reference](https://api.halalterminal.com/api-reference)
+- [Sukuk screening guide](https://www.halalterminal.com/research/sukuk-screening)
+- [Shariah-compliant ETFs compared (2026)](https://www.halalterminal.com/research/sharia-etf-comprehensive-analysis)
+- [Is my stock halal? Screener](https://www.halalterminal.com/stocks)
+
+## Part of the Halal Terminal ecosystem
+
+[Website](https://www.halalterminal.com) · [API](https://api.halalterminal.com/api-reference) · [Python SDK](https://github.com/goww7/halalterminal-sdk-python) · [MCP server](https://github.com/goww7/halalterminal-mcp) · [Claude plugin](https://github.com/goww7/halalterminal-claude-skills) · [Discord bot](https://github.com/goww7/halal-discord-bot) · [TradingView indicator](https://github.com/goww7/halal-pine) · [Portfolio tracker](https://github.com/goww7/halal-portfolio-tracker)
+
 ## License
 
 MIT. © Halal Terminal.
