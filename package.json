@@ -39,7 +39,7 @@
   ],
   "author": "Yassir <yassir@halalterminal.com>",
   "license": "MIT",
-  "homepage": "https://halalterminal.com",
+  "homepage": "https://www.halalterminal.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goww7/halalterminal-sdk-js.git"
