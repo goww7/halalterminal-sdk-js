@@ -1,5 +1,7 @@
 # @halalterminal/sdk — TypeScript / JavaScript SDK
 
+> [English](README.md) | [العربية](README.ar.md) | [Bahasa Indonesia](README.id.md) | [Melayu](README.ms.md) | [اردو](README.ur.md) | [Français](README.fr.md)
+
 ![AAPL halal status](https://api.halalterminal.com/api/badge/AAPL.svg) _live badge from the API, embed one for any symbol_
 
 Official TypeScript/JavaScript client for the [Halal Terminal API](https://halalterminal.com) — Shariah stock screening across 5 audited methodologies, real-time market data, ETF look-through, zakat & purification calculators.
